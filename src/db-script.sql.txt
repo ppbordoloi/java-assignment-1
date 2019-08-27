@@ -1,0 +1,13 @@
+CREATE DATABASE db_assignment_1;
+
+USE db_assignment_1;
+
+CREATE TABLE user (
+  id INT(20) NOT NULL AUTO_INCREMENT,
+  name VARCHAR(255) NULL,
+  email VARCHAR (255) NOT NULL,
+  password VARCHAR (255) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO `user` (id, name, email, password) VALUES (1, "Administrator", "admin@gmail.com", "admin");
